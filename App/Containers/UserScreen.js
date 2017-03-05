@@ -36,6 +36,7 @@ class UserScreen extends React.Component {
           <Text>Loaded</Text>
           <View style={styles.section}>
             <Text>{user.name}</Text>
+            <Text>prueba</Text>
           </View>
           <View style={styles.section}>
             <Text>UserScreen Container</Text>
