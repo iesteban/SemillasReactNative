@@ -2,8 +2,7 @@
 
 // An Feed Screen is a great way to dev and quick-test components
 import React from 'react'
-import { Platform, View, ScrollView, Text, Image } from 'react-native'
-import { Images } from '../Themes'
+import { Platform, View, Text } from 'react-native'
 import styles from './Styles/FeedScreenStyle'
 
 // Components to show examples (only real point of merge conflict)
@@ -11,10 +10,8 @@ import '../Components/AlertMessage'
 import '../Components/FullButton'
 import '../Components/RoundedButton'
 import '../Components/DrawerButton'
+import Feed from '../Containers/Feed'
 // import '../Components/MapCallout'
-
-// Examples Render Engine
-import ExamplesRegistry from '../Services/ExamplesRegistry'
 
 class FeedScreen extends React.Component {
 
@@ -33,29 +30,7 @@ class FeedScreen extends React.Component {
   render () {
     return (
       <View style={styles.mainContainer}>
-        <Image source={Images.background} style={styles.backgroundImage} resizeMode='stretch' />
-        <ScrollView style={styles.container}>
-          <View style={styles.section}>
-            {this.renderAndroidWarning()}
-            <Text style={styles.sectionText}>
-              Sometimes called a 'Style Guide', or 'Pattern Library', Examples Screen is filled with usage examples
-              of fundamental components for a given application.  Use this merge-friendly way for your team
-              to show/use/test components.  Examples are registered inside each component's file for quick changes and usage identification.
-            </Text>
-            <Text style={styles.subtitle} >
-              All components that register examples will be rendered below:
-            </Text>
-          </View>
-          <View style={styles.section}>
-            <Text style={styles.sectionText}>
-              Ismael Ismael Ismael
-            </Text>
-
-          </View>
-
-          {ExamplesRegistry.render()}
-
-        </ScrollView>
+        <Feed />
       </View>
     )
   }
