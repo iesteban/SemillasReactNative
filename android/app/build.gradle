@@ -164,6 +164,7 @@ dependencies {
 		compile('com.digits.sdk.android:digits:2.0.6@aar') {
 			transitive = true;
 		}
+    compile project(':react-native-fabric-digits')
 }
 
 // Run this once to be able to run the application with BUCK
