@@ -31,7 +31,7 @@
       <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
       <meta-data
           android:name="io.fabric.ApiKey"
-          android:value="placeholder"
+          android:value="22379c35ed00ed7057bc9d57c4d37ec2f363048c"
       />
     </application>
 		<uses-permission android:name="android.permission.INTERNET" />
