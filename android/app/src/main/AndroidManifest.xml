@@ -33,13 +33,6 @@
           android:name="io.fabric.ApiKey"
           android:value="placeholder"
       />
-			<meta-data
-				android:name="io.Digits.ApiKey"
-				android:value="placeholder" />
-			<meta-data
-				android:name="io.Digits.ApiSecret"
-				android:value="placeholder" />
-
     </application>
 		<uses-permission android:name="android.permission.INTERNET" />
 </manifest>
