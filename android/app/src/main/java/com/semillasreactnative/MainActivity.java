@@ -17,8 +17,8 @@ import com.digits.sdk.android.*;
 
 public class MainActivity extends ReactActivity {
 
-    private static final String TWITTER_KEY = "placeholder";
-    private static final String TWITTER_SECRET = "placeholder";
+    private static final String TWITTER_KEY = "6FJMTRCi3hZPqJOITD56y3KzF";
+    private static final String TWITTER_SECRET = "HR4HkIl63AJfE4zmHH7XOKkH0FtZ3r6ivgRXzC1BLktYfyvCGQ";
 
     @Override
     protected String getMainComponentName() {
