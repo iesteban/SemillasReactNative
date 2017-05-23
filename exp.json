@@ -1,0 +1,19 @@
+{
+  "name": "Semillas",
+  "description": "Open Source Social Currency",
+  "slug": "semillas",
+  "sdkVersion": "14.0.0",
+  "version": "1.0.0",
+  "orientation": "portrait",
+  "primaryColor": "#cccccc",
+  "icon": "https://s3-eu-west-1.amazonaws.com/semilladocs/01a02_logotype.png",
+  "loading": {
+    "icon": "https://s3.amazonaws.com/exp-icon-assets/ExpoEmptyManifest_192.png",
+    "hideExponentText": false
+  },
+  "packagerOpts": {
+    "assetExts": [
+      "ttf"
+    ]
+  }
+}

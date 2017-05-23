@@ -25,7 +25,6 @@ import ListviewSectionsExample from '../Containers/ListviewSectionsExample'
 import ListviewSearchingExample from '../Containers/ListviewSearchingExample'
 import APITestingScreen from '../Containers/APITestingScreen'
 import ThemeScreen from '../Containers/ThemeScreen'
-import DeviceInfoScreen from '../Containers/DeviceInfoScreen'
 
 /* **************************
 * Documentation: https://github.com/aksonov/react-native-router-flux
@@ -48,7 +47,6 @@ class NavigationRouter extends Component {
             <Scene key='login' component={LoginScreen} title='Login' hideNavBar />
 
             {/* Custom navigation bar example */}
-            <Scene key='deviceInfo' component={DeviceInfoScreen} title='Device Info' />
           </Scene>
         </Scene>
       </Router>

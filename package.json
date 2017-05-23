@@ -30,17 +30,16 @@
     "querystring": "^0.2.0",
     "querystringify": "0.0.4",
     "ramda": "^0.22.1",
-    "react": "16.0.0-alpha.6",
+    "react": "~15.4.2",
     "react-addons-pure-render-mixin": "15.5.2",
     "react-static-container": "^1.0.1",
-    "react-native": "0.43.3",
+    "react-native": "github:exponent/react-native#sdk-15.0.0",
     "react-native-animatable": "^0.6.0",
     "react-native-config": "^0.1.2",
     "react-native-device-info": "^0.9.9",
     "react-native-drawer": "^2.3.0",
     "react-native-i18n": "^0.1.1",
     "react-native-infinite-scroll-view": "^0.4.2",
-    "react-native-maps": "0.12.4",
     "react-native-router-flux": "3.38.0",
     "react-native-simple-auth": "^2.0.0",
     "react-native-vector-icons": "^3.0.0",
@@ -51,7 +50,9 @@
     "redux-saga": "^0.13.0",
     "reduxsauce": "0.2.0",
     "seamless-immutable": "^6.3.0",
-    "url": "^0.11.0"
+    "url": "^0.11.0",
+    "@expo/vector-icons": "~4.0.0",
+    "expo": "~15.0.0"
   },
   "devDependencies": {
     "ava": "^0.17.0",
@@ -107,5 +108,6 @@
     "ghooks": {
       "pre-commit": "if [ -d 'ignite-base' ]; then cd ignite-base; fi; npm run lint"
     }
-  }
+  },
+  "main": "main.js"
 }

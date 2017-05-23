@@ -1,0 +1,89 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+a	Sagas/StartupSagas.js	/^    const subObject = { a: 1, b: [1, 2, 3], c: true }$/;"	p	class:console.tron.log.tron.log
+active	Config/ReduxPersist.js	/^const REDUX_PERSIST = {$/;"	p	class:from
+b	Sagas/StartupSagas.js	/^    const subObject = { a: 1, b: [1, 2, 3], c: true }$/;"	p	class:console.tron.log.tron.log
+background	Themes/Colors.js	/^const colors = {$/;"	p	class:const
+backgroundColor	Navigation/Styles/NavItemsStyle.js	/^const navButton = {$/;"	p	class:from
+base	Themes/Fonts.js	/^const type = {$/;"	p	class:const
+bloodOrange	Themes/Colors.js	/^  coal: '#2d2d2d',$/;"	p	class:const
+bold	Themes/Fonts.js	/^  base: 'HelveticaNeue',$/;"	p	class:const
+card	Containers/ServiceScreen.js	/^      const card = {card: {width: 320}}$/;"	p	class:const
+charcoal	Themes/Colors.js	/^  panther: '#161616',$/;"	p	class:const
+clear	Themes/Colors.js	/^  background: '#EBEBEB',$/;"	p	class:const
+cloud	Themes/Colors.js	/^  frost: '#D8D8D8',$/;"	p	class:const
+coal	Themes/Colors.js	/^  charcoal: '#595959',$/;"	p	class:const
+connectionInfo	Containers/DeviceInfoScreen.js	/^      isConnected: false,$/;"	p	class:constructor.state
+connectionInfoHistory	Containers/DeviceInfoScreen.js	/^      connectionInfo: null,$/;"	p	class:constructor.state
+cta	Themes/Colors.js	/^  drawer: 'rgba(30, 30, 29, 0.95)',$/;"	p	class:const
+data	Components/ServiceFeed.js	/^  static propTypes = {$/;"	p	class:from.Component
+dispatch	Containers/LoginScreen.js	/^type LoginScreenProps = {$/;"	p	class:from
+drawer	Containers/DrawerContent.js	/^DrawerContent.contextTypes = {$/;"	p	class:DrawerContent.DrawerContent
+drawer	Themes/Colors.js	/^  fire: '#e73536',$/;"	p	class:const
+email	Containers/LoginScreen.js	/^    this.state = {$/;"	p	class:isAttempting.state
+ember	Themes/Colors.js	/^  snow: 'white',$/;"	p	class:const
+emphasis	Themes/Fonts.js	/^  bold: 'HelveticaNeue-Bold',$/;"	p	class:const
+error	Themes/Colors.js	/^  steel: '#CCCCCC',$/;"	p	class:const
+ezLogin	Config/DebugSettings.js	/^  useFixtures: false,$/;"	p	class:const
+facebook	Themes/Colors.js	/^  clear: 'rgba(0,0,0,0)',$/;"	p	class:const
+fire	Themes/Colors.js	/^  ember: 'rgba(164, 0, 48, 0.5)',$/;"	p	class:const
+first	Containers/ListviewSectionsExample.js	/^    const dataObjects = {$/;"	p	class:constructor
+frost	Themes/Colors.js	/^  ricePaper: 'rgba(255,255,255, 0.75)',$/;"	p	class:const
+h1	Themes/Fonts.js	/^const size = {$/;"	p	class:const
+h1	Themes/Fonts.js	/^const style = {$/;"	p	class:const
+h2	Themes/Fonts.js	/^  h1: 38,$/;"	p	class:const
+h3	Themes/Fonts.js	/^  h2: 34,$/;"	p	class:const
+h4	Themes/Fonts.js	/^  h3: 30,$/;"	p	class:const
+h5	Themes/Fonts.js	/^  h4: 26,$/;"	p	class:const
+h6	Themes/Fonts.js	/^  h5: 20,$/;"	p	class:const
+icon	Components/DrawerButton.js	/^  text: string,$/;"	p	class:from.add
+includeExamples	Config/DebugSettings.js	/^  reduxLogging: __DEV__,$/;"	p	class:const
+input	Themes/Fonts.js	/^  h6: 19,$/;"	p	class:const
+isConnected	Containers/DeviceInfoScreen.js	/^    this.state = {$/;"	p	class:constructor.state
+items	Containers/Feed.js	/^    this.state = {$/;"	p	class:constructor.state
+items	Containers/Feed.js	/^  static propTypes = {$/;"	p	class:from.Component
+location	Components/MapCallout.js	/^type MapCalloutProps = {$/;"	p	class:from.add
+log	Config/ReactotronConfig.js	/^  console.tron = {$/;"	p	class:console.tron
+loggedIn	Containers/UsageExamplesScreen.js	/^UsageExamplesScreen.propTypes = {$/;"	p	class:UsageExamplesScreen.propTypes
+logo	Themes/Images.js	/^const images = {$/;"	p	class:const
+medium	Themes/Fonts.js	/^  regular: 17,$/;"	p	class:const
+message	Containers/APITestingScreen.js	/^    this.state = {$/;"	p	class:constructor.state
+navigationState	Navigation/CustomNavBar.js	/^CustomNavBar.propTypes = {$/;"	p	class:CustomNavBar.propTypes
+navigationState	Navigation/NavigationDrawer.js	/^NavigationDrawer.propTypes = {$/;"	p	class:NavigationDrawer.propTypes
+onPress	Components/DrawerButton.js	/^  icon: string,$/;"	p	class:from.add
+onPress	Components/FullButton.js	/^  text: string,$/;"	p	class:from.add
+onPress	Components/MapCallout.js	/^  location: Object,$/;"	p	class:from.add
+onPress	Components/RoundedButton.js	/^type RoundedButtonProps = {$/;"	p	class:from.add
+onSearch	Components/SearchBar.js	/^  static propTypes = {$/;"	p	class:from.Component
+panther	Themes/Colors.js	/^  windowTint: 'rgba(0, 0, 0, 0.4)',$/;"	p	class:const
+password	Containers/LoginScreen.js	/^      email: 'reactnative@infinite.red',$/;"	p	class:isAttempting.state
+reducerVersion	Config/ReduxPersist.js	/^  active: true,$/;"	p	class:from
+reduxLogging	Config/DebugSettings.js	/^  yellowBox: __DEV__,$/;"	p	class:const
+regular	Themes/Fonts.js	/^  input: 18,$/;"	p	class:const
+ricePaper	Themes/Colors.js	/^  error: 'rgba(200, 0, 0, 0.8)',$/;"	p	class:const
+screen	Themes/ApplicationStyles.js	/^const ApplicationStyles = {$/;"	p	class:import
+show	Components/AlertMessage.js	/^AlertMessage.defaultProps = {$/;"	p	class:AlertMessage.defaultProps
+showSearchBar	Navigation/CustomNavBar.js	/^    this.state = {$/;"	p	class:from.Component.state
+silver	Themes/Colors.js	/^  transparent: 'rgba(0,0,0,0)',$/;"	p	class:const
+small	Themes/Fonts.js	/^  medium: 14,$/;"	p	class:const
+snow	Themes/Colors.js	/^  bloodOrange: '#fb5f26',$/;"	p	class:const
+steel	Themes/Colors.js	/^  silver: '#F7F7F7',$/;"	p	class:const
+storeConfig	Config/ReduxPersist.js	/^  reducerVersion: '4',$/;"	p	class:from
+text	Components/DrawerButton.js	/^type DrawerButtonProps = {$/;"	p	class:from.add
+text	Components/FullButton.js	/^type FullButtonProps = {$/;"	p	class:from.add
+tiny	Themes/Fonts.js	/^  small: 12,$/;"	p	class:const
+title	Components/AlertMessage.js	/^type AlertMessageProps = {$/;"	p	class:from.add
+title	Containers/APITestingScreen.js	/^      message: false,$/;"	p	class:constructor.state
+transparent	Themes/Colors.js	/^  facebook: '#3b5998',$/;"	p	class:const
+useFixtures	Config/DebugSettings.js	/^const SETTINGS = {$/;"	p	class:const
+useReactotron	Config/DebugSettings.js	/^  includeExamples: __DEV__,$/;"	p	class:const
+uuid	Containers/ServiceScreen.js	/^ServiceScreen.propTypes = {$/;"	p	class:ServiceScreen.propTypes
+uuid	Containers/UserScreen.js	/^UserScreen.propTypes = {$/;"	p	class:UserScreen.propTypes
+visibleHeight	Containers/APITestingScreen.js	/^    this.state = {$/;"	p	class:constructor.state
+visibleHeight	Containers/LoginScreen.js	/^      password: 'password',$/;"	p	class:isAttempting.state
+windowTint	Themes/Colors.js	/^  cloud: 'rgba(200,200,200, 0.35)',$/;"	p	class:const
+yellowBox	Config/DebugSettings.js	/^  ezLogin: false,$/;"	p	class:const

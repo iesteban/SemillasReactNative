@@ -1,0 +1,2 @@
+import 'expo'
+require('./index');
