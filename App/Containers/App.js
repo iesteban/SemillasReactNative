@@ -6,6 +6,7 @@ import '../I18n/I18n' // keep before root container
 import RootContainer from './RootContainer'
 import createStore from '../Redux'
 import applyConfigSettings from '../Config'
+import { Font } from 'exponent';
 
 // Apply config overrides
 applyConfigSettings()
@@ -22,6 +23,15 @@ const store = createStore()
  * We separate like this to play nice with React Native's hot reloading.
  */
 class App extends Component {
+
+  componentDidMount() {
+		// Add Custom Fonts
+    debugger;
+    Font.loadAsync({
+      'CircularStdMedium': require('./assets/fonts/CircularStd-Medium.otf'),
+    });
+  }
+
   render () {
     return (
       <Provider store={store}>

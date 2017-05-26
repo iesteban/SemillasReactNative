@@ -1,7 +1,7 @@
 // @flow
 
 const type = {
-  base: 'HelveticaNeue',
+  base: 'CircularStdMedium',
   bold: 'HelveticaNeue-Bold',
   emphasis: 'HelveticaNeue-Italic'
 }
