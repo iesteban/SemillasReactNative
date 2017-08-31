@@ -22,7 +22,7 @@ class AboutScreen extends React.Component {
   render () {
     return (
       <WebView
-        source={{uri: 'https://www.semillasocial.org/landing/people/'}}
+        source={{uri: 'https://fair-coin.org'}}
         style={styles.webView}
       />
     )

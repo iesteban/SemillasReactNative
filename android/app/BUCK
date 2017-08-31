@@ -45,12 +45,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.semillasreactnative",
+    package = "com.faircoindiscovery",
 )
 
 android_resource(
     name = "res",
-    package = "com.semillasreactnative",
+    package = "com.faircoindiscovery",
     res = "src/main/res",
 )
 
